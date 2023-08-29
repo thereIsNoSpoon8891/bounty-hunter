@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray ;
+    border-radius: 10px;
+}
+.title--header{
+    font-family: sans-serif;
+    color: white;
+}
+.bounties-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bounty{
+    background-color: gray;
+    width: 500px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.poster-image{
+    border-radius: 10px;
+    border: solid black 2px;
+    margin-bottom: 20px;
+}
+
+.bounty-form-container{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.bounty-inputs-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bounty-inputs-container input{
+    height: 30px;
+    margin: 2px;
+}
+
+.bounty-inputs-container button {
+    text-align: center;
+}
+
+.bounty--editing-container{
+    display: flex;
+
+}
+
+
+.helm{
+    min-width: 600px;
+}
+
+.delete-button{
+    border: solid white 2px;
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.delete-button:hover{
+    border: solid black 2px;
+    background-color: rgb(224, 65, 65);
+    color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.form-button{
+    border: solid white 2px;
+    background-color: black;
+    color: white;
+    height: 60px;
+    min-width: 60px;
+    border-radius: 50%;
+}
+
+.form-button:hover{
+    border: solid black 2px;
+    background-color: rgb(44, 179, 37);
+    color: black;
+    font-style: italic;
+    font-weight: 700;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.form-edit-cancel-button{
+    border: solid white 2px;
+    background-color: rgb(231, 59, 59);
+    color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.form-edit-cancel-button:hover{
+    border: solid white 2px;
+    background-color: blue;
+    color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.wanted{
+    color:rgb(148, 0, 0);
+    font-size: 50px;
+}
+
+.affinity{
+    text-transform: capitalize;
+}
+
+.doa{
+    text-decoration: underline;
+}
+
+.atLarge{
+    background-color: rgb(13, 12, 12);
+    border-radius: 10px;
+    padding: 5px;
+    color:rgb(70, 180, 19);
+    
+}
+
+.killed{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 5px;
+    color:rgb(154, 46, 46);
+}
+
+.jedi{
+    color: blue;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.sith{
+    color:rgb(148, 0, 0);
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.name{
+    font-style: italic;
+}
